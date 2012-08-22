@@ -1,4 +1,5 @@
-HTML5Uploader 
+krzysztofwilczek's HTML5Uploader with python backend
+
 JS object for easy image upload using drag & drop method.
 
 Class allows:
@@ -9,6 +10,3 @@ Upload single image from selected files list
 Create integration with simple file input on web site 
 Add user define events (for example: run after upload start or upload end)
 Show preview of upload files
-
-
-
