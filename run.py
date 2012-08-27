@@ -49,7 +49,7 @@ def uploader():
 # files serving method
 @app.route('/uploads/<filename>')
 def uploads(filename):
-	return send_from_directory(save_path, filename)
+    return send_from_directory(save_path, filename)
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
